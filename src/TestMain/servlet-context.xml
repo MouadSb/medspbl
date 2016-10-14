@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jee="http://www.springframework.org/schema/jee" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+		http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-4.0.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.0.xsd">
+
+	<context:component-scan base-package="medicalgap">
+	</context:component-scan>
+
+	<bean id="congressesDAO" class="medicalgap.dao.DaoImpl.CongressesImpl" />
+
+	<bean id="congressesMetier" class="medicalgap.metier.daoImpl.CongressesMetierImpl">
+		<property name="congressesDAO" ref="congressesDAO" />
+	</bean>
+
+
+	<bean id="registresDesCancersDAO" class="medicalgap.dao.DaoImpl.RegistresDesCancersImpl" />
+
+	<bean id="registresDesCancersMetier" class="medicalgap.metier.daoImpl.RegistresDesCancersMetierImpl">
+		<property name="registresDesCancersDAO" ref="registresDesCancersDAO" />
+	</bean>
+
+
+	<bean id="guidelinesDAO" class="medicalgap.dao.DaoImpl.GuidelinesImpl" />
+
+	<bean id="guidelinesMetier" class="medicalgap.metier.daoImpl.GuidelinesMetierImpl">
+		<property name="guidelinesDAO" ref="guidelinesDAO" />
+	</bean>
+
+
+	<bean id="medicaleActivitiesDAO" class="medicalgap.dao.DaoImpl.MedicalActivitiesImpl" />
+
+	<bean id="medicaleActivitiesMetier" class="medicalgap.metier.daoImpl.MedicalActivitiesMetierImpl">
+		<property name="medicaleActivitiesDAO" ref="medicaleActivitiesDAO" />
+	</bean>
+
+
+
+	<bean id="presseSanteDAO" class="medicalgap.dao.DaoImpl.PresseSanteImpl" />
+
+	<bean id="presseSanteMetier" class="medicalgap.metier.daoImpl.PresseSanteMetierImpl">
+		<property name="presseSanteDAO" ref="presseSanteDAO" />
+	</bean>
+
+
+	<bean id="taeDao" class="medicalgap.dao.DaoImpl.TaeImpl" />
+
+	<bean id="taeMetier" class="medicalgap.metier.daoImpl.TaeMetierImpl">
+		<property name="taeDao" ref="taeDao" />
+	</bean>
+
+
+</beans>

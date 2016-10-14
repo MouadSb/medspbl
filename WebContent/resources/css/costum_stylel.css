@@ -1,0 +1,180 @@
+
+.input_s {
+	background-color: #0394e3;
+	width: 280px;
+}
+
+#imageID{
+content:url(/MedicalGap/resources/images/welcomeimage.jpg);
+}
+
+#backgroundLogin{
+	background-image: url('/MedicalGap/resources/images/background_welcome.png');
+}
+
+
+#bodyCat{ 
+	margin-right: 120px;
+	height: 395px; 
+	width: 348px; 
+	margin-top: 150px;  
+	background-image: url('/MedicalGap/resources/images/395.png'); 
+	background-repeat: no-repeat; background-size: 100% 100%;
+}
+
+#idDivContainer{
+	margin-top: 150px; 
+	text-align: center;
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+  #backgroundLogin {
+    	background-image: url('/MedicalGap/resources/images/ipad.png');
+  }
+}
+
+
+@media (min-device-width: 320px) and (min-device-height: 480px) and (orientation : portrait){
+	#bodyCat{ 
+		margin-right: 75px;
+		height: 960px;
+	    width: 822px;
+	    margin-top: 292px;
+	    background-image: url(/MedicalGap/resources/images/395.png);
+	    background-repeat: no-repeat;
+	    background-size: 100% 100%;
+	    font-size: 51px;
+	}
+	.container-fluid{
+		margin-left: 69px;
+	}
+	#idDivContainer{
+		margin-top: 367px;
+    	text-align: center;
+	}
+	.form-control{
+	    font-size: 51px;
+		height: 107px;
+		margin-bottom: 6% !important;
+		
+	}
+	.input_s {
+    	width: 632px;
+	}
+	.btn-group-lg>.btn, .btn-lg {
+	    font-size: 47px;
+	}
+}
+
+
+@media (min-device-width: 480px) and (min-device-height: 320px) and (orientation : landscape){
+	#bodyCat{ 
+    	margin-top: 64px;
+    	margin-right: 57px;
+	}
+	
+}
+@media (min-device-width: 768px) and (min-device-height: 1024px) and (orientation : portrait){
+	 #bodyCat {
+    	margin-top: 213px;
+    	}
+}
+
+@media (min-device-width: 1024px) and (min-device-height: 768px) and (orientation : landscape){
+    #bodyCat {
+   	 	margin-top: 156px !important;
+   	 	margin-right: 32px;
+   	 	}
+}
+@media only screen and (min-device-height: 950px) and (min-device-width: 1600px){
+    #bodyCat {
+   	 	height: 478px;
+   		width: 466px;
+   		font-size : 18px;
+   	 }
+   	 #idDivContainer{
+   	 	margin-top: 165px;
+   	 	}
+	.container-fluid{
+		margin-left: 44px;
+	}
+	.form-control{
+		margin-bottom: 7% !important;
+		height: 58px;
+		font-size: 23px;
+	}
+	.input_s{
+		width: 322px;
+	}
+	.btn-group-lg>.btn, .btn-lg {
+    	font-size: 23px;
+    }
+}
+
+@media (min-device-width: 1280px) and (min-device-height: 768px) and (orientation : landscape){
+  #bodyCat{ 
+  		margin-top: 239px;
+  	}
+}
+
+@media (min-device-width: 767px) and (min-device-height: 1279px) and (orientation : portrait){
+  #bodyCat{ 
+  		height: 945px;
+   		width: 813px;
+   		margin-top: 209px;
+   		margin-right: 69px;
+  	}
+}
+
+
+@media (min-device-width: 2500px) and (min-device-height: 1600px) and (orientation : landscape){
+	#bodyCat {
+    	margin-top: 317px;
+    	height: 794px;
+    	width: 658px;
+    	font-size: 30px;
+    	}
+    .form-control{
+    	height: 75px;
+    	margin-bottom: 7% !important;
+    	font-size: 38px;
+    }
+    .input_s {
+    	width: 469px;
+	}
+	.btn-group-lg>.btn, .btn-lg {
+	    font-size: 36px;
+	    margin-bottom: 21px;
+	}
+	#idDivContainer {
+    	margin-top: 284px;
+    }
+    .container-fluid {
+    	margin-left: 62px;
+	}
+    
+}
+
+
+
+
+
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+  #imageID {
+		content:url(/MedicalGap/resources/images/welcomeimageIpad.png);
+  }
+}
+
+
+
+
+
+
+

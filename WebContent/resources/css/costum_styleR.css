@@ -1,0 +1,24 @@
+.modal {
+    top: 3% !important;
+    right: 3% !important;
+}
+
+#myPager{
+	margin-bottom : 0;
+	margin-top: 8px;
+}
+
+#btn_add{
+	margin-top:2px;
+}
+
+@media only screen and (min-device-width:320px){
+	#btn_add, #btn_showr, #btn_modify, #btn_delete,#btn_showP,#btn_showCo,#btn_showt,#btn_showm,#btn_showG{
+		width: 250px;
+	}
+}
+@media only screen and (min-device-width:1024px){
+	#btn_add, #btn_showr, #btn_modify, #btn_delete,#btn_showP,#btn_showCo,#btn_showt,#btn_showm,#btn_showG{
+		width: 178px;
+	}
+}

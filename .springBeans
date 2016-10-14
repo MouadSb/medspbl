@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beansProjectDescription>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.6.4.201503051146-RELEASE]]></pluginVersion>
+	<configSuffixes>
+		<configSuffix><![CDATA[xml]]></configSuffix>
+	</configSuffixes>
+	<enableImports><![CDATA[false]]></enableImports>
+	<configs>
+		<config>src/TestMain/servlet-context.xml</config>
+		<config>WebContent/WEB-INF/spring-database.xml</config>
+		<config>WebContent/WEB-INF/spring-secur.xml</config>
+	</configs>
+	<autoconfigs>
+		<config>WebContent/WEB-INF/application-servlet-config.xml</config>
+		<config>WebContent/WEB-INF/spring-beans.xml</config>
+	</autoconfigs>
+	<configSets>
+		<configSet>
+			<name><![CDATA[Security]]></name>
+			<allowBeanDefinitionOverriding>true</allowBeanDefinitionOverriding>
+			<incomplete>false</incomplete>
+			<configs>
+				<config>WebContent/WEB-INF/spring-database.xml</config>
+				<config>WebContent/WEB-INF/spring-secur.xml</config>
+			</configs>
+			<profiles>
+			</profiles>
+		</configSet>
+	</configSets>
+</beansProjectDescription>

@@ -1,0 +1,221 @@
+#listSCat {
+	visibility: hidden;
+}
+#selectCategorie{
+   width: 300px;
+   	font-size: 16px;
+       font-weight: bold;
+   
+}
+	 #Cbtn_choix{
+		margin-top: 10px;
+	 }
+
+#selectSCategorie{
+	 width: 300px;
+   	font-size: 16px;
+       font-weight: bold;
+}
+
+#listSCat{
+	 width: 300px;
+	    text-align: center;
+	    	font-size: 15px;
+	    	    margin: 0 auto;
+    float: left;
+	    
+}
+
+#btn_choix{
+	width: 100px;
+	text-align: center;
+	font-size: 15px;
+	height: 40px;
+	float: left;
+}
+
+
+#listCat{
+	width: 300px;
+	text-align: center;
+	font-size: 15px;
+	margin: 0 auto;
+    float: left;
+}
+
+body{
+	background-image: url('/MedicalGap/resources/images/background_cat.png'); background-repeat: no-repeat; background-size: 100% auto;
+}
+
+#idDivContain{
+	margin-top: 150px; 
+	text-align:center;
+}
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+  body {
+    background-image: url('/MedicalGap/resources/images/ipad2.png'); background-size: 100% auto;
+  }
+}
+
+
+
+#bodyCat{ 
+	margin-right: 120px;
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+  #bodyCat {
+    margin-right: 10px; 
+  }
+}
+
+#headerRoche{
+background-image: url('/MedicalGap/resources/images/roche.png'); 
+			padding-bottom: 3%;
+			max-height: 57px; max-width: 114px;
+			background-size: contain;
+	    	background-repeat: no-repeat; 
+	    	display: block;
+ 			margin-left: auto;
+  			margin-right: auto;
+  			margin-top: 30px;
+}
+
+#headerLogo{
+			background-image: url('/MedicalGap/resources/images/medicalgaplogo.png'); 
+			padding-bottom: 3%;
+			max-height: 63px; max-width: 272px;
+			background-size: contain;
+	    	background-repeat: no-repeat; 
+	    	display: block;
+ 			margin-left: auto;
+  			margin-right: auto;
+  			margin-top: 30px;
+}
+
+
+#bodyCat{
+		height: 320px; 
+		width: 348px; 
+		margin-top: 200px;   
+		background-image: url('/MedicalGap/resources/images/311.png'); 
+		background-repeat: no-repeat; 
+		background-size: 100% 100%;
+}
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+}
+
+
+@media (min-device-width: 340px) and (min-device-height: 480px) and (orientation : portrait){
+	#bodyCat{
+		height: 325px;
+	    width: 323px;
+	    margin-top: 84px;
+	}
+	#bodyCat {
+    	margin-right: 13px !important;
+	}
+	#selectCategorie {
+   	 	width: 269px;
+   	 }
+   	 #listCat {
+    	width: 269px;
+   	 }
+   	 #selectSCategorie {
+    	width: 269px;
+   	 }
+   	 #listSCat {
+    	width: 269px;
+   	 }
+}
+
+@media (min-device-width: 320px) and (orientation : portrait){
+	#bodyCat {
+	    height: 274px;
+	    width: 294px;
+	    margin-top: 68px;
+	    margin-right: 0;
+	}
+	#selectCategorie {
+   	 	width: 247px;
+   	 	font-size: 14px;
+   	 }
+   	 #listCat {
+    	width: 247px;
+    	font-size: 14px;
+   	 }
+   	 #selectSCategorie {
+    	width: 247px;
+    	font-size: 14px;
+   	 }
+   	 #listSCat {
+    	width: 247px;
+    	font-size: 14px;
+   	 }
+   	 #idDivContain{
+		margin-top: 117px; 
+   	 }
+	 #Cbtn_choix{
+		margin-top: 1px;
+	 }
+	
+}
+
+
+@media (min-device-width: 480px) and (min-device-height: 320px) and (orientation : landscape){
+
+	
+}
+@media (min-device-width: 768px) and (min-device-height: 1024px) and (orientation : portrait){
+
+}
+
+@media (min-device-width: 1024px) and (min-device-height: 768px) and (orientation : landscape){
+ 
+}
+@media only screen and (min-device-width: 1400px) and (min-device-height: 850px){
+
+}
+
+@media (min-device-width: 1280px) and (min-device-height: 768px) and (orientation : landscape){
+  #bodyCat{ 
+  		margin-top: 239px;
+  	}
+}
+
+@media (min-device-width: 767px) and (min-device-height: 1279px) and (orientation : portrait){
+
+}
+
+
+@media (min-device-width: 2500px) and (min-device-height: 1600px) and (orientation : landscape){
+
+}
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+}
+
+
+
+
+
+
+
